@@ -1,10 +1,10 @@
 // This example displays a marker at the center of Australia.
 // When the user clicks the marker, an info window opens.
 function initMap() {
-  const Big River waterpark and Adventure = { lat: 31.5545, lng: 97.1326 };
+  const Aqua = { lat: 31.5545, lng: 97.1326 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 8,
-    center: Big River waterpark and Adventure,
+    center: Aqua,
   });
   const contentString =
     '<div id="content">' +
