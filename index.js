@@ -1,7 +1,7 @@
 // This example displays a marker at the center of Australia.
 // When the user clicks the marker, an info window opens.
 function initMap() {
-  const park = { lat: 31.5545, lng: 97.1326 };
+  const park = { lat: 30.196033, lng: -95.199577};
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: park,
@@ -10,9 +10,9 @@ function initMap() {
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Big River waterpark and Adventure</h1>' +
+    '<h1 id="firstHeading" class="firstHeading">Big Rivers waterpark and Adventure</h1>' +
     '<div id="bodyContent">' +
-    "<p><b>Big Rivers waterpark and Advventure</b>, also referred to as <b>Park</b>, is a large " +
+    "<p><b>Big Rivers waterpark and Adventure</b>, also referred to as <b>Park</b>, is a large " +
     "waterpark in the central part of the " +
     "Texas. It lies 335&#160;km (208&#160;mi) " +
     "south west of the nearest large town, Alice Springs; 450&#160;km " +
